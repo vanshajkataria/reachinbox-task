@@ -8,7 +8,7 @@ export default function page() {
       <nav className="w-full p-4 flex justify-center items-center border-b border-[#25262B] fixed top-0">
         <Image src={logo} alt="ReachInbox Logo" width={250} />
       </nav>
-      <main className="h-screen flex justify-center items-center">
+      <main className="h-screen w-screen flex justify-center items-center">
         <div className="grid grid-cols-1 gap-12 text-center bg-[#121212] p-12 rounded-xl border-[#343A40] border">
           <div className="grid grid-cols-1 gap-8">
             <div>
