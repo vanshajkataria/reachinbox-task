@@ -7,7 +7,7 @@ export default function navbar() {
     <>
       <nav className="flex flex-col items-center h-full gap-16">
         <div className="flex-none">
-          <Image src={pictorialLogo} alt="" width={50} />
+          <Image src={pictorialLogo} alt="" width={50} className="invert dark:invert-0" />
         </div>
         <div className="grow">
           <ul className="flex flex-col justify-between items-center gap-8">
