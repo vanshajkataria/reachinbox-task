@@ -1,4 +1,5 @@
 import React from "react";
+import SwitchUI from "@/components/UI/switchUI"
 
 export default function header() {
   return (
@@ -8,7 +9,7 @@ export default function header() {
           <h1>Onebox</h1>
         </div>
         <div>
-          <h1>Onebox</h1>
+          <SwitchUI />
         </div>
       </div>
     </>
